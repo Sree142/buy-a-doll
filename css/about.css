@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff66b2;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #ff99cc;
+    padding: 1rem;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about-content,
+.about-team {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2,
+.about-team h2 {
+    color: #ff66b2;
+    margin-bottom: 1rem;
+}
+
+.about-content p,
+.about-team p {
+    color: #555;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff66b2;
+    color: #fff;
+}
